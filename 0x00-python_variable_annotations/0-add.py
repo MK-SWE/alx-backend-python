@@ -5,4 +5,4 @@ add() a function that return the sum of given parameters
 
 
 def add(a: float, b: float) -> float:
-  return a + b
+    return a + b
