@@ -2,11 +2,9 @@
 """
   sum_list  a function that return the sum of a given list
 """
+from typing import List
 
 
-def sum_list(list: list[float]) -> float:
+def sum_list(lst: List[float]) -> float:
     """ Return the list sum"""
-    res = 0
-    for i in list:
-        res += i
-    return res
+    return sum(lst)
