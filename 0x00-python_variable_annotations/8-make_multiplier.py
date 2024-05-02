@@ -6,7 +6,7 @@ returns a function that multiplies a float by multiplier
 from typing import Callable, Iterator, Union, Optional, List, Tuple
 
 
-def make_multiplier(multiplier: float) -> float:
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     return multiplier a function
     """
